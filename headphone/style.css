@@ -1,0 +1,366 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;}
+.showcase img{
+    position: absolute;
+    top: 0;
+    left: 0;
+        width: 100%;
+       height:100vh ;
+        background-size: cover;
+        background-position: center;
+
+
+    }
+    .overlay{
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+
+    }
+    .text{
+        position: relative;
+        z-index: 10;
+    }
+    .text h5{
+        font-size: 2em;
+    }
+
+    #home {
+        background-image: url("images/landing.png.jpg");
+        height: 100vh;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+      }
+
+      .banner{
+        width: 100%;
+        height: 150px;
+        background: #f4c76e;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+    .banner h1{
+        font-weight: 501;
+    }
+
+    .h-headphones-dec h2{
+        padding: 100px 0 0px 200px;
+    }
+    .h-headphones{
+        width: 100%;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .headphones{
+        width: 350px;
+        height: 370px;
+        margin: 20px;
+        background: #f4c76e;
+    }
+    .headphones img{
+        width: 350px;
+        height: 250px;
+        
+    }
+    .name{
+        width: 120px;
+        height: 34px;
+        color: black;
+        border-radius: 30px;
+        margin: 20px 0px 0px 20px;
+        position: absolute;
+        color: aliceblue;
+        background: #f4c76e;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .name h6{
+        color: black;
+    }
+    .about-head-p h6{
+        font-weight: 601;
+        padding: 20px 0px 0px 20px;
+    }
+    .headphones p{
+        padding: 0px 0px 5px 20px;
+        color: white;
+    }
+
+    .new-headphones{
+        font-weight: 601;
+        padding: 100px 0 0px 200px;
+    }
+    .n-headphones{
+        width: 100%;
+        height: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .n-headphones-dec{
+        width: 270px;
+        height: 220px;
+        margin: 20px;
+    }
+    .n-headphones-dec img{
+        width: 270px;
+        height: 220px;
+    }
+
+    .headphones-content{
+        width: 270px;
+        height: 220px;
+        margin-top: -220px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        color: aliceblue;
+        background: rgba(0, 0, 0, 0.6);
+        opacity: 0;
+        transition: 0.6s;
+    }
+    .headphones-content button{
+        width: 50px;
+        height: 50px;
+        border: 0px;
+        border-radius: 100%;
+        background-color: rgb(56, 56, 56);
+        color: white;
+        font-size: 30px;
+    
+    }
+    .headphones-content p{
+        margin-top: 10px;
+        font-weight: 501;
+    }
+    
+    
+    
+    
+    .n-headphones-dec:hover img{
+        animation: slideRight 1s ease forwards;
+        animation: rotateRight 1s ease forwards;
+        transition: 2s;
+        position: relative;
+    }
+    .new-headphones h2{
+        padding: 100px 0 0px 200px;
+
+    }
+
+    .pre-order{
+        width: 100%;
+        height: 200px;
+        margin-top: 40px;
+        background: #f4c76e;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        color: white;
+    }
+    .pre-order button{
+        width: 140px;
+        padding: 10px;
+        border-radius: 30px;
+        background-color: white;
+    }
+    .pre-order h1{
+        font-weight: 601;
+    }
+
+    .features{
+        width: 100%;
+        height: 400px;
+    }
+    .features-head{
+        text-align: center;
+        padding: 80px 0px 0px 0px;
+    }
+    .features-list{
+        width: 100%;
+        height: 300px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .f-l{
+        width: 270px;
+        height: 220px;
+    }
+    .f-l-name{
+        width: 150px;
+        height: 34px;
+        color: black;
+        border-radius: 30px;
+        margin: 25px 0px 0px -10px;
+        position: absolute;
+        color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .f-l-name h6{
+        font-weight: 601;
+    }
+    .f-l-p-p{
+        color: #f4c76e;
+    }
+    .f-l h1{
+        color: #f4c76e;
+        font-weight: 601;
+        font-size: 60px;
+    }
+
+    .location{
+        width: 100%;
+        height: 600px;
+        text-align: center;
+        padding: 40px 0px 0px 0px;
+    }
+    .location h6{
+        color: gray;
+        font-weight: 601;
+    }
+    .location h1{
+        font-weight: 601;
+    }
+    .map iframe{
+        width: 100%;
+        padding: 40px 0px 0px 0px;
+    }
+    .footer{
+        width: 100%;
+        height: 150px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .about-us{
+        width: 400px;
+        height: 100px;
+        text-align: center;
+    }
+    .about-us img{
+        width: 140px;
+        height: 100px;
+    }
+    .about-us i{
+        padding: 50px 15px 0px 0px;
+    }
+
+    #new {
+        margin-left: 80px;
+        margin-right: 80px;
+      }
+      
+      .card1 {
+        margin: 10px;
+        position: relative;
+      }
+      
+      .card1 img {
+        width: 100%;
+        height: 350px;
+      }
+      
+      .card-body1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(128, 128, 128, 0.4);
+        opacity: 0;
+        transition: 0.3s;
+        color: rgb(221, 250, 215);
+      }
+      
+      .card1:hover .card-body1 {
+        opacity: 1;
+      }
+
+      .content{
+        width: 100%;
+        height: 800px;
+        padding-right: 700px;
+        background: url(./images/landing.png.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+    .content h6{
+        font-weight: 701;
+        padding-right: 180px;
+    }
+    .content h1{
+        font-size: 50px;
+        font-weight: 601;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .content button{
+        margin: 30px;
+        padding: 10px 30px 10px 30px;
+        border-radius: 25px;
+        border: 0px;
+    }
+    .container-fluid button{
+        margin: 10px;
+        padding: 10px 30px 10px 30px;
+        border-radius: 25px;
+        border: 0px;
+
+    }
+    .description{
+        width: 100%;
+        height: 300px;
+        background-color: white;
+        padding: 90px 150px 30px 150px;
+    }
+    .description h3{
+        font-size: 30px;
+    }
+    .description p{
+        padding: 10px 0px 0px 20px;
+        font-weight: 501;
+    }
+    body .navbar {
+        position: sticky;
+        top: 0;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
